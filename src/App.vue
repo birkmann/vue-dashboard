@@ -1,8 +1,10 @@
 <template>
   <v-app>
     <div class="page">
-      <Sidebar />
-      <router-view></router-view>
+      <div class="wrapper">
+        <Sidebar />
+        <router-view></router-view>
+      </div>
     </div>
   </v-app>
 </template>

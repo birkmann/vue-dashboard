@@ -18,7 +18,6 @@ export default {
 .sidebar {
   background: #eee;
   nav {
-    display: flex;
     a {
       text-decoration: none;
       color: #333;

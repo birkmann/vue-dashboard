@@ -1,7 +1,7 @@
-import { Bar } from "vue-chartjs";
+import { Line } from "vue-chartjs";
 
 export default {
-  extends: Bar,
+  extends: Line,
   mounted() {
     // Overwriting base render method with actual data.
     this.renderChart({
@@ -21,9 +21,9 @@ export default {
       ],
       datasets: [
         {
-          label: "GitHub Commits",
-          backgroundColor: "#f87979",
-          data: [40, 20, 12, 39, 10, 40, 39, 80, 40, 20, 12, 11]
+          label: "Label",
+          backgroundColor: "#42b983",
+          data: [5, 8, 3, 7, 3, 7, 8, 9, 5, 4, 6, 9]
         }
       ]
     });
