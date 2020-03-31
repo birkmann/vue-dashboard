@@ -1,15 +1,19 @@
 <template>
   <v-app>
     <div class="page">
+      <Sidebar />
       <router-view></router-view>
     </div>
   </v-app>
 </template>
 
 <script>
+import Sidebar from "./components/Sidebar";
 export default {
   name: "App",
-  components: {}
+  components: {
+    Sidebar
+  }
 };
 </script>
 
