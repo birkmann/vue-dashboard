@@ -1,12 +1,17 @@
 <template>
   <div class="content">
     <h2>Dashboard</h2>
+    <CommitChart />
   </div>
 </template>
 
 <script>
+import CommitChart from "./CommitChart";
 export default {
-  name: "Home"
+  name: "Home",
+  components: {
+    CommitChart
+  }
 };
 </script>
 
